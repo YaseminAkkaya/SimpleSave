@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C9DFF1 #C9DFF1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ResultPageController">
+   <children>
+      <Line endX="611.7269287109375" endY="36.05171585083008" startX="-4.658268928527832" startY="36.05170822143555" />
+      <Label alignment="CENTER" layoutY="43.0" prefHeight="38.0" prefWidth="613.0" text="You Need to Save...">
+         <font>
+            <Font name="Lao MN" size="29.0" />
+         </font>
+      </Label>
+      <Line endX="612.6346435546875" endY="89.06895446777344" startX="8.051756594795734E-6" startY="89.0689468383789" />
+      <Label alignment="CENTER" layoutX="78.0" layoutY="122.0" prefHeight="38.0" prefWidth="104.0" style="-fx-border-color: black;" text="Daily">
+         <font>
+            <Font name="Lao MN" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="76.0" layoutY="196.0" prefHeight="38.0" prefWidth="104.0" style="-fx-border-color: black;" text="Weekly">
+         <font>
+            <Font name="Lao MN" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="76.0" layoutY="270.0" prefHeight="38.0" prefWidth="104.0" style="-fx-border-color: black;" text="Monthly">
+         <font>
+            <Font name="Lao MN" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="dailyDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="113.0" prefHeight="56.0" prefWidth="147.0" style="-fx-background-color: white;" text="... ">
+         <font>
+            <Font name="Lao MN" size="31.0" />
+         </font></Label>
+      <Label fx:id="weeklyDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="187.0" prefHeight="56.0" prefWidth="147.0" style="-fx-background-color: white;" text="...">
+         <font>
+            <Font name="Lao MN" size="30.0" />
+         </font></Label>
+      <Label fx:id="monthlyDisplay" alignment="CENTER" contentDisplay="CENTER" layoutX="277.0" layoutY="261.0" prefHeight="56.0" prefWidth="149.0" style="-fx-background-color: white;" text=" ...">
+         <font>
+            <Font name="Lao MN" size="29.0" />
+         </font></Label>
+      <Button layoutX="217.0" layoutY="338.0" mnemonicParsing="false" onAction="#restart" prefHeight="34.0" prefWidth="125.0" text="Start Over">
+         <font>
+            <Font name="Lao MN" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

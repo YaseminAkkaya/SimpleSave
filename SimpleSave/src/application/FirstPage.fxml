@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="amountNeeded" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C9DFF1 #C9DFF1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FirstPageController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="-7.0" layoutY="105.0" prefHeight="26.0" prefWidth="612.0" text="how much money do you need to save?" wrapText="true">
+         <font>
+            <Font name="Lao MN" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="amountTitle" alignment="CENTER" layoutY="67.0" prefHeight="38.0" prefWidth="600.0" text="Enter the Amount " textAlignment="CENTER">
+         <font>
+            <Font name="Lao MN" size="31.0" />
+         </font>
+      </Label>
+      <Line endX="606.0" endY="66.0" layoutX="-1.0" layoutY="-9.0" startX="1.0" startY="66.0" />
+      <Line endX="606.5" endY="134.0" layoutX="-1.0" layoutY="8.0" startX="-6.5" startY="134.0" />
+      <TextField fx:id="amountTextField" layoutX="170.0" layoutY="177.0" prefHeight="56.0" prefWidth="267.0" promptText="ex: 400">
+         <font>
+            <Font name="Lao Sangam MN" size="34.0" />
+         </font>
+      </TextField>
+      <Button fx:id="nextButton" layoutX="224.0" layoutY="279.0" mnemonicParsing="false" onAction="#enterAmt" prefHeight="33.0" prefWidth="151.0" text="Next">
+         <font>
+            <Font name="Lao MN" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
